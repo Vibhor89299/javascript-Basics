@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS DOM Document Object Model </title>
+</head>
+
+<body>
+    <h1 id="text"> JavaScript</h1>
+
+    <p class="test-1">HTML</p>
+    <p class="test-1">CSS</p >
+    <p class="test-1">JS</p>
+</body>
+
+<script>
+    //DOM represeentation of HTML tree in object format 
+
+    //getElementById ==> Select any element from DOM tree using it's unique Id
+
+ 
+// let elmentSelected =  document.getElementById('text').innerText = 'HTML and CSS'
+ 
+ 
+//document.getElementById('text').innerHTML = 'HTML and CSS And<br> <span> JavaScript</span>' 
+  
+
+// get element by className
+    
+let elements = document.getElementsByClassName('test-1') 
+console.log(elements)
+</script>
+
+</html>
